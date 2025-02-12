@@ -110,7 +110,7 @@ p{
 div.botao {
  margin: auto;
  width:fit-content;
- height: 30px;
+ height: 35px;
  background-color: red;
  border: 2px solid black;
  border-radius: 8px;
@@ -137,15 +137,19 @@ nav > a:hover {
     color: var(--cor2);*/
     text-decoration: underline;
     
-}*/
+}
+
+main picture {
+    margin: auto;
+}
 
 footer {
     /*background-image: linear-gradient( var(--cor4), var(--cor0));*/
     /*background-color: var(--cor0);*/
     /*color:var(--cor1);*/
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0,5em;
     text-align: center;
-    font-size: 0,8em;
     padding: 0px;
 }
 
@@ -153,6 +157,7 @@ footer a {
     color:var(--cor1);
     font-weight: bolder;
     text-decoration: none;
+    
 }
 
 footer a:hover {
