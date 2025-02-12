@@ -32,6 +32,7 @@ body{
   background-size: 100% 50%;
   background-repeat: no-repeat;
   background-position: center top;
+  background-attachment: fixed;
   
   /*background-image: linear-gradient( var(--cor0), var(--cor4));*/
   min-height: 150px;
@@ -40,6 +41,9 @@ body{
 }
 
 h1{
+    margin-top: 265px;
+    margin-bottom: 50px;
+    /*height: 350px;*/
     font-family:var(--fonte-florecer) ;
     color: var(--cor1);
     text-align: center;
@@ -74,6 +78,8 @@ main h2{
 
 h3{
     color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 h3 strong{
