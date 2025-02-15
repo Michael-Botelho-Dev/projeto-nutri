@@ -76,6 +76,7 @@ main h2{
     font-family: var(--fonte-conteudo);
     font-style: normal;
     font-size:1.2em ;
+    text-align: center;
     padding-top: 3px;
 }
 
@@ -83,6 +84,7 @@ main h3{
     color: var(--cor1);
     font-family: var(--fonte-padrao);
     font-size: 0.77em;
+    text-align: center;
     margin-bottom: 5px;
 }
 
@@ -109,6 +111,7 @@ div.video > iframe {
 }
 
 main p {
+    text-align: center;
     font-family: var(--fonte-conteudo);
     font-weight: bolder;
     font-size: 1.5em;
@@ -128,6 +131,7 @@ div.botao {
 }
 
 nav {
+    text-align: center;
   font-family: var(--fonte-conteudo);
   margin: 10px;
 
